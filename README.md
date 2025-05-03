@@ -65,7 +65,7 @@ Next, for Linux and MacOS: Run `cmake` and then `make` to build the simulator:
 mkdir build
 cd build
 cmake ..
-make -j # cores to build with
+make -j # cores to build with  make -j $(nproc)
 cd ..
 ```
 
